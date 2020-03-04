@@ -1,1 +1,3 @@
 ssl/dhparam.pem
+ssl/certs/*
+.env
