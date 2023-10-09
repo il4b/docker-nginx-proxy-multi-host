@@ -9,7 +9,7 @@ services:
             - 443:443
         volumes:
             - ./nginx/conf.d:/etc/nginx/conf.d
-            - ./ssl/dhparam.pem:/etc/nginx/dhparam/dhparam.pem
+            # - ./ssl/dhparam.pem:/etc/nginx/dhparam/dhparam.pem
             - vhost:/etc/nginx/vhost.d
             - certs:/etc/nginx/certs
             - html:/usr/share/nginx/html
